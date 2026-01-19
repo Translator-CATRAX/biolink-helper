@@ -1,6 +1,6 @@
 # BiolinkHelper
 
-`BiolinkHelper` is a lightweight Python utility class for working with a specific **Biolink Model version** using a **local cache directory**.
+`BiolinkHelper` is a lightweight Python utility class for working with a specific **Biolink Model version**.
 Its data source is the [Biolink Model YAML](https://github.com/biolink/biolink-model/blob/master/biolink-model.yaml) file.
 ---
 
@@ -17,13 +17,6 @@ No defaults are assumed.
 
 ## Installation
 
-If packaged and installed locally:
-
-```bash
-pip install .
-```
-
-Or if published to a package index:
 
 ```bash
 pip install biolink-helper-pkg
