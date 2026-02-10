@@ -154,6 +154,7 @@ class BiolinkHelper:
         return list(canonical_predicates)
     
     def get_predicate_depth_map(self)->Dict[str,int]:
+        self.download_biolink_model()
         with open(self.biolink_model_file_path) as f:
             biolink_model = yaml.safe_load(f)
         predicate_dag = self._build_predicate_dag(biolink_model)
