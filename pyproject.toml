@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "biolink-helper-pkg"
-version = "1.0.0"
+version = "1.0.1"
 description = "Standalone BiolinkHelper module extracted from RTX"
 readme = "README.md"
 authors = [
